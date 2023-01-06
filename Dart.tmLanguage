@@ -387,7 +387,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>(?&lt;!\$)\b(abstract|class|enum|extends|external|factory|implements|get|mixin|native|operator|set|typedef|with|covariant)\b(?!\$)</string>
+					<string>(?&lt;!\$)\b(abstract|class|enum|extends|external|factory|implements|get|mixin|native|operator|set|typedef|with|covariant|extension)\b(?!\$)</string>
 					<key>name</key>
 					<string>keyword.declaration.dart</string>
 				</dict>
@@ -459,7 +459,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>(?&lt;!\$)\b(static|final|const)\b(?!\$)</string>
+					<string>(?&lt;!\$)\b(static|final|const|late)\b(?!\$)</string>
 					<key>name</key>
 					<string>storage.modifier.dart</string>
 				</dict>
