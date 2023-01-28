@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+@override
+void dispose() {
+  ${0:}
+  super.dispose();
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>dis</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Called when this object is removed from the tree permanently. The framework calls this method when this State object will never build again.</description>
+</snippet>

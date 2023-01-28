@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+TweenAnimationBuilder(
+  duration: ${1:const Duration(),}
+  tween: ${2:Tween(),}
+  builder: (BuildContext context, ${3:dynamic} value, Widget? child) {
+    return ${4:Container();}
+  },
+),
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>tweenAnimationBuilder</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Widget builder that animates a property of a Widget to a target value whenever the target value changes.</description>
+</snippet>

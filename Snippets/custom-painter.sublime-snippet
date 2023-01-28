@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+class ${0:name}Painter extends CustomPainter {
+
+  @override
+  void paint(Canvas canvas, Size size) {
+  }
+
+  @override
+  bool shouldRepaint(${0:name}Painter oldDelegate) => false;
+
+  @override
+  bool shouldRebuildSemantics(${0:name}Painter oldDelegate) => false;
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>customPainter</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Used for creating custom paint</description>
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+class ${1:Name} extends InheritedWidget {
+  const ${1:Name}({super.key, required this.child}) : super(child: child);
+
+  final Widget child;
+
+  static ${1:Name}? of(BuildContext context) {
+    return context.dependOnInheritedWidgetOfExactType<${1:Name}>();
+  }
+
+  @override
+  bool updateShouldNotify(${1:Name} oldWidget) {
+    return ${2:true};
+  }
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>inheritedW</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Class used to propagate information down the widget tree</description>
+</snippet>

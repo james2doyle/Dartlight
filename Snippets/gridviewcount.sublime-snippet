@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+GridView.count(
+  crossAxisSpacing: ${1:1},
+  mainAxisSpacing: ${2:2},
+  crossAxisCount: ${3:2},
+  children: <Widget> [
+    ${4:}
+  ],
+),
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>gridViewC</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Creates a scrollable, 2D array of widgets with a fixed number of tiles in the cross axis.</description>
+</snippet>

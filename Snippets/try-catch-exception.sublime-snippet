@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+try {
+  ${1:fn}
+} on ${2:SomeOtherException} {
+  // A specific exception${3}
+} on Exception catch (e) {
+  // Anything else that is an exception${4}
+} catch (e) {
+  // No specified type, handles all${5}
+} finally {
+  // Always clean up, even if an exception is thrown.${6}
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>try</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Try-on-catch exception</description>
+</snippet>

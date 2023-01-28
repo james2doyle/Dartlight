@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+ListView.separated(
+  itemCount: ${1:1},
+  separatorBuilder: (BuildContext context, int index) {
+    return ${2:index};
+  },
+  itemBuilder: (BuildContext context, int index) {
+    return ${3:index};
+  },
+),
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>listViewS</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Creates a fixed-length scrollable linear array of list 'items' separated by list item 'separators'.</description>
+</snippet>

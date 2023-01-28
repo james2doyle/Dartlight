@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+@override
+String toString() => ${1:toString}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>toStr</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Returns a string representation of this object.</description>
+</snippet>

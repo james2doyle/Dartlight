@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+class ${1:name} extends StatefulWidget {
+  const ${1:name}({super.key});
+
+  @override
+  State<${1:index}> createState() => _${1:WidgetName}State();
+}
+
+class _${1:index}State extends State<${1:index}> {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>statefulW</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Create a Stateful widget</description>
+</snippet>

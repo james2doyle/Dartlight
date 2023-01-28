@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+ValueListenableBuilder(
+  valueListenable: ${1: null},
+  child: const Text("Default Content"),
+  builder: (BuildContext context, ${2:dynamic} value, Widget? child) {
+    return ${3: Container();}
+  },
+),
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>valueListenableBuilder</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Given a ValueListenable"T" and a builder which builds widgets from concrete values of T, this class will automatically register itself as a listener of the ValueListenable and call the builder with updated values when the value changes.</description>
+</snippet>

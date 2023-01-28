@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+CustomScrollView(
+  slivers: <Widget>[
+    ${0:}
+  ],
+),
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>customScrollV</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Creates a `ScrollView` that creates custom scroll effects using slivers. If the `primary` argument is true, the `controller` must be null.</description>
+</snippet>

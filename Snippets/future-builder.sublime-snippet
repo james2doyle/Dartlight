@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+FutureBuilder(
+  future: ${1:Future},
+  initialData: ${2:InitialData},
+  builder: (BuildContext context, AsyncSnapshot snapshot) {
+    return ${3:};
+  },
+),
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>futureBldr</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Creates a Future Builder. This builds itself based on the latest snapshot of interaction with a Future.</description>
+</snippet>

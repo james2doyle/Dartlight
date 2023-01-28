@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+GridView.builder(
+  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+    crossAxisCount: ${1:2},
+  ),
+  itemCount: ${2:2},
+  itemBuilder: (BuildContext context, int index) {
+    return ${3:};
+  },
+),
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>gridViewB</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Creates a scrollable, 2D array of widgets that are created on demand. Providing a non-null `itemCount` improves the ability of the [GridView] to estimate the maximum scroll extent.</description>
+</snippet>

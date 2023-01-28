@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+final ValueNotifier<${1:int}> ${2:_counter} = ValueNotifier<${1:int}>(${3:0});$0
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>valueNotifier</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Given a ValueListenable"T" and a builder which builds widgets from concrete values of T, this class will automatically register itself as a listener of the ValueListenable and call the builder with updated values when the value changes.</description>
+</snippet>

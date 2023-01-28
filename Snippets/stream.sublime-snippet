@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+Stream<${1:type}> get ${2:name} => _${2:name}Controller.stream;
+final _${2:name}Controller = StreamController<${1:type}>();
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>strm</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>A source of asynchronous data events. A stream can be of any data type "T"</description>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+@override
+void didUpdateWidget (${1:Type} ${2:oldWidget}) {
+  super.didUpdateWidget(${2:oldWidget});
+  ${0:}
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>didUpdateW</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Called whenever the widget configuration changes.</description>
+</snippet>

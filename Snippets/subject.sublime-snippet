@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+Stream<${1:type}> get ${2:name} => _${2:name}Subject.stream;
+final _${2:name}Subject = BehaviorSubject<${1:type}>();
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>subj</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>A BehaviorSubject is also a broadcast StreamController which returns an Observable rather than a Stream.</description>
+</snippet>

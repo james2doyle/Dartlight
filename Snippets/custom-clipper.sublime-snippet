@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+class ${0:name}Clipper extends CustomClipper<Path> {
+
+  @override
+  Path getClip(Size size) {
+  }
+
+  @override
+  bool shouldReclip(CustomClipper<Path> oldClipper) => false;
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>customClipper</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Used for creating custom shapes</description>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+ListView.builder(
+  itemCount: ${1:1},
+  itemBuilder: (BuildContext context, int index) {
+    return ${2:index};
+  },
+),
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>listViewB</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Creates a scrollable, linear array of widgets that are created on demand.Providing a non-null `itemCount` improves the ability of the [ListView] to estimate the maximum scroll extent.</description>
+</snippet>

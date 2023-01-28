@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+testWidgets(
+  "${1:test description}",
+  (WidgetTester tester) async {},
+);
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>f-testWidgets</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Create a testWidgets function</description>
+</snippet>

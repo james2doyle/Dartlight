@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+StatefulBuilder(
+  builder: (BuildContext context, setState) {
+    return ${0:};
+  },
+),
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>statefulBldr</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Creates a widget that both has state and delegates its build to a callback. Useful for rebuilding specific sections of the widget tree.</description>
+</snippet>

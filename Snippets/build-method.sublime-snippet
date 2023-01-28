@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+@override
+Widget build(BuildContext context) {
+  return ${0:};
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>build</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Describes the part of the user interface represented by this widget.</description>
+</snippet>

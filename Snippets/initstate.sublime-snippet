@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+@override
+void initState() {
+  super.initState();
+  ${0:}
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>initS</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Called when this object is inserted into the tree. The framework will call this method exactly once for each State object it creates.</description>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+AnimatedBuilder(
+  animation: ${1:animation},
+  child: ${2:child},
+  builder: (BuildContext context, Widget? child) {
+    return ${3:};
+  },
+),
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>animatedBldr</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Creates an Animated Builder. The widget specified to `child` is passed to the `builder`</description>
+</snippet>

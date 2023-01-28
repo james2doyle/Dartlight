@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+GridView.extent(
+  maxCrossAxisExtent:  ${1:2},
+  children: <Widget> [
+    ${2:}
+  ],
+),
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>gridViewE</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Creates a scrollable, 2D array of widgets with tiles that each have a maximum cross-axis extent.</description>
+</snippet>
