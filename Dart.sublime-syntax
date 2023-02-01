@@ -24,13 +24,13 @@ contexts:
         - match: \b(as|show|hide|deferred as)\b
           scope: keyword.other.import.dart
     - include: comments
+    - include: operators
     - include: metadata
     - include: annotations
     - include: keywords
     - include: constants-and-special-vars
     - include: strings
     - include: punctuation
-    - include: operators
   metadata:
    - match: '@(Deprecated|deprecated|override)+'
      scope: punctuation.definition.comment.metadata.dart
@@ -130,7 +130,9 @@ contexts:
       scope: keyword.control.dart
     - match: (?<!\$)\b(new)\b(?!\$)
       scope: keyword.control.new.dart
-    - match: (?<!\$)\b(abstract|class|enum|extends|external|factory|implements|get(?!\()|set|mixin|native|operator|typedef|with|covariant|extension)\b(?!\$)
+    - match: (?<!\$)\b(abstract|class|enum|extends|external|factory|implements|mixin|native|operator|typedef|with|covariant|extension)\b(?!\$)
+      scope: keyword.declaration.dart
+    - match: (?<!\$)\b(get|set)(?!\()(?!\s=)\b(?!\$)
       scope: keyword.declaration.dart
     - match: (?<!\$)\b(static|final|const|late)\b(?!\$)
       scope: storage.modifier.dart
