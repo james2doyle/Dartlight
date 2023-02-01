@@ -122,7 +122,7 @@ contexts:
       scope: keyword.cast.dart
     - match: (?<!\$)\b(try|on|catch|finally|throw|rethrow)\b(?!\$)
       scope: keyword.control.catch-exception.dart
-    - match: (?<!\$)\b(break|case|continue|default|do|else|for|if|in|return|switch|while)\b(?!\$)
+    - match: (?<!\$)\b(break|case|continue|default|do|else|for|if|in|return|switch|while|when)\b(?!\$)
       scope: keyword.control.dart
     - match: (?<!\$)\b(sync(\*)?|async(\*)?|await|yield(\*)?)\b(?!\$)
       scope: keyword.control.dart
@@ -134,7 +134,7 @@ contexts:
       scope: keyword.declaration.dart
     - match: (?<!\$)\b(get|set)(?!\()(?!\s=)\b(?!\$)
       scope: keyword.declaration.dart
-    - match: (?<!\$)\b(static|final|const|late)\b(?!\$)
+    - match: (?<!\$)\b(static|final|const|required|late)\b(?!\$)
       scope: storage.modifier.dart
     - match: (?<!\$)\b(?:var)\b(?!\$)
       scope: storage.type.primitive.dart
