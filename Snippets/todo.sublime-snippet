@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+// TODO(${1:username}): ${2:message}${3:, ${4:https://URL-to-issue}}.$0
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>todo</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Creates a TODO comment in Flutter TODO format</description>
+</snippet>
