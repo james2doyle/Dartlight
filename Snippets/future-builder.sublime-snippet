@@ -4,9 +4,17 @@ FutureBuilder(
   future: ${1:Future},
   initialData: ${2:InitialData},
   builder: (BuildContext context, AsyncSnapshot snapshot) {
-    return ${3:};
+    if (snapshot.connectionState == ConnectionState.waiting) {
+      return const Center(child: CircularProgressIndicator.adaptive());
+    }
+
+    if (snapshot.hasData) {
+      return ${3:// done widget};
+    }
+
+    return const Center(child: Text('Nothing found or no data...'));
   },
-),
+);
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>futureBldr</tabTrigger>
