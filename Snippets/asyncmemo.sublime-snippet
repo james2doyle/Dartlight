@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+final _${1:name}Memo = AsyncMemoizer<${2:bool}>();
+
+/// Uses the previously returned value if it exists, otherwise calls the closure:
+Future<${2:bool}> checkLocalFiles() => _${1:name}Memo.runOnce(() async {
+  return ${3:true};$0
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>asyncMemo</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>A class for running an asynchronous function exactly once and caching its result.</description>
+</snippet>

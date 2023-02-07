@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+final _${1:name}Cache = new AsyncCache<${2:bool}>(const Duration(${3:minutes: 1}));
+
+/// Uses the cache if it exists, otherwise calls the closure:
+Future<${2:bool}> onlineUsers() => _${1:name}Cache.fetch(() async {
+  return ${4:true};$0
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>asyncCache</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Runs asynchronous functions and caches the result for a period of time.</description>
+</snippet>

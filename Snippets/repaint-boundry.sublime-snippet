@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+RepaintBoundary(
+  child: ${1:child},
+),
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>repaintBoundry</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>A widget that creates a separate display list for its child.</description>
+</snippet>
