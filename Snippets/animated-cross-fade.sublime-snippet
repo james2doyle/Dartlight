@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+AnimatedCrossFade(
+  duration: ${1:const Duration(seconds: ${2:3})},
+  firstChild: ${3:const FlutterLogo(style: FlutterLogoStyle.horizontal, size: 100.0)},
+  secondChild: ${4:const FlutterLogo(style: FlutterLogoStyle.stacked, size: 100.0)},
+  crossFadeState: ${5:_first ? CrossFadeState.showFirst : CrossFadeState.showSecond},
+),
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>animatedCrossFade</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>A widget that cross-fades between two given children and animates itself between their sizes.</description>
+</snippet>

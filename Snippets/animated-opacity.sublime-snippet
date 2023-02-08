@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+AnimatedOpacity(
+  opacity: ${1:opacityLevel},
+  duration: ${2:const Duration(seconds: ${3:3})},
+  child: ${4:const FlutterLogo()},
+)
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>animatedOpacity</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Animated version of Opacity which automatically transitions the child's opacity over a given duration whenever the given opacity changes.</description>
+</snippet>

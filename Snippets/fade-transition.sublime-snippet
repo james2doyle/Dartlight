@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+FadeTransition(
+  opacity: ${1:_animation},
+  child: ${2:const Padding(padding: EdgeInsets.all(8), child: FlutterLogo())},
+),
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>fadeTransition</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>For a widget that automatically animates between the sizes of two children, fading between them.</description>
+</snippet>
