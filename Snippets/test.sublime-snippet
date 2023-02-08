@@ -1,9 +1,12 @@
 <snippet>
   <content><![CDATA[
-test(
-  "${1:test description}",
-  () {},
-);
+test("${1:test description}", () {
+  ${2:expect('foo,bar,baz', allOf([
+      contains('foo'),
+      isNot(startsWith('bar')),
+      endsWith('baz')
+    ]))};$0
+});
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>f-test</tabTrigger>

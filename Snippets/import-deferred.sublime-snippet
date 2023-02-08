@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+/// Only dart compile js supports deferred loading.
+/// A deferred library’s constants don’t exist until the deferred library is loaded.
+/// You can’t use types from a deferred library in the importing file. Instead, consider moving interface types to a library imported by both the deferred library and the importing file.
+import 'package:${1:defer/library1.dart}' deferred as ${2:lib1};
+
+await ${2:lib1}.loadLibrary();
+${2:lib1}.${2:printGreeting()};$0
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>importDeferred</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Deferred loading (also called lazy loading) allows a web app to load a library on demand, if and when the library is needed.</description>
+</snippet>
