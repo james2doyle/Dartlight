@@ -130,7 +130,7 @@ contexts:
       scope: keyword.control.dart
     - match: (?<!\$)\b(new)\b(?!\$)
       scope: keyword.control.new.dart
-    - match: (?<!\$)\b(abstract|class|enum|extends|external|factory|implements|mixin|native|operator|typedef|with|covariant|extension)\b(?!\$)
+    - match: (?<!\$)\b(abstract|class|enum|extends|external|factory|implements|mixin|native|operator|typedef|with|covariant|extension|sealed)\b(?!\$)
       scope: keyword.declaration.dart
     - match: (?<!\$)\b(get|set)(?!\()(?!\s=)\b(?!\$)
       scope: keyword.declaration.dart
