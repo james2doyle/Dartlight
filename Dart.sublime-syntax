@@ -95,6 +95,7 @@ contexts:
     - match: '([_$]*[a-z][a-zA-Z0-9_$]*)(<(?:[a-zA-Z0-9_$<>?]|,\s*|\s+extends\s+)+>)?[!?]?\('
       captures:
         1: entity.name.function.dart
+        2: support.class.dart
   dartdoc:
     - match: '(\[.*?\])'
       captures:
