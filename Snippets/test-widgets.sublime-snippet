@@ -1,9 +1,10 @@
 <snippet>
   <content><![CDATA[
-testWidgets(
-  "${1:test description}",
-  (WidgetTester tester) async {},
-);
+testWidgets("${1:test description}", (WidgetTester tester) async {
+  await tester.pumpWidget(${2:MyWidget()});$0
+  await tester.tap(find.text('Save'));
+  expect(find.text('Success'), findsOneWidget);
+});
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>f-testWidgets</tabTrigger>

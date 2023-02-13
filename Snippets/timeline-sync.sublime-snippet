@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+Timeline.startSync('${1:interesting function}');
+${2:// iWonderHowLongThisTakes();}
+Timeline.finishSync();$0
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>timelineStartSync</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Timeline's startSync and finishSync can be used explicitly, or implicitly by wrapping a closure in timeSync.</description>
+</snippet>
