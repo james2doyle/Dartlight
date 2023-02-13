@@ -1,0 +1,4 @@
+[
+    { "caption": "Dartlight: Hot Reload", "command": "dartlight_hot_reload" },
+    { "caption": "Dartlight: Hot Restart", "command": "dartlight_hot_restart" }
+]
