@@ -1,0 +1,4 @@
+[
+    { "caption": "Flutter Code: Hot Reload", "command": "flutter_dart_code_hot_reload" },
+    { "caption": "Flutter Code: Hot Restart", "command": "flutter_dart_code_hot_restart" }
+]
