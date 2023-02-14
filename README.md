@@ -26,7 +26,7 @@ Started as a fork of [elMuso/Dartlight](https://github.com/elMuso/Dartlight) but
 - "Package Control > Add Repository"
 - https://github.com/james2doyle/Flutter-Dart-Code
 - "Package Control > Install Package"
-- Install "sublime-twig" package
+- Install "FlutterDartCode" package
 
 ### TODOs
 
