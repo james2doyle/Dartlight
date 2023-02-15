@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+${4:bool} ${1:_calculate}(${2:int value}) {
+  ${3:// do computations}
+
+  ${5:return true};
+}
+
+Future<${4:bool}> isPrime(${2:int value}) {
+  return compute(${1:_calculate}, ${6:value});
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>computeIsolate</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>An isolated Dart execution context.</description>
+</snippet>

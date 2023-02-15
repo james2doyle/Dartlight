@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[
+class ${1:Isolate}Model {
+  final int iteration;
+  final int multiplier;
+  ${1:Isolate}Model(this.iteration, this.multiplier);
+}
+
+String ${2:heavyTask}(${1:Isolate}Model model) {
+  int total = 0;
+  /// Performs an iteration of the specified count
+  for (int i = 1; i < model.iteration; i++) {
+    /// Multiplies each index by the multiplier and computes the total
+    total += (i * model.multiplier);
+  }
+  return "FINAL TOTAL: $total";
+}
+
+Future<String> ${2:heavyTask}Compute(int iteration, int multiplier) {
+  return compute<${1:Isolate}Model, String>(${2:heavyTask}, ${1:Isolate}Model(iteration, multiplier));
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>computeIsolateClass</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>An isolated Dart execution context using a Class for arguments typing.</description>
+</snippet>
