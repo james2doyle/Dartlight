@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+class ${1:MySingleton} {
+  // Private constructor
+  ${1:MySingleton}._privateConstructor();
+
+  // The single instance of the class
+  static final ${1:MySingleton} _instance = ${1:MySingleton}._privateConstructor();
+
+  // Factory constructor to provide access to the instance
+  factory ${1:MySingleton}() {
+    return _instance;
+  }
+
+  // Add your methods and properties here
+}${0}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>singleton</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.dart</scope>
+  <description>Creates a singleton that is guaranteed to only have one instance</description>
+</snippet>
